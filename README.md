@@ -21,9 +21,9 @@ _**Ссылка на компоненты для использования пр
 1) Заходим в репозиторий на github и открываем вкладку **Actions**
 ![readme images/img.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img.png?raw=true)
 2) Чуть ниже в левой части нажимаем **New workflow**
-![img.png](readme images/img_new_workflow.png)
+![readme images/img_new_workflow.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img_new_workflow.png?raw=true)
 3) Нажимаем на ссылку **Set up a workflow yourself**
-![img.png](readme images/img_setup_workflow.png)
+![readme images/img_setup_workflow.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img_setup_workflow.png?raw=true)
 4) В открывшееся окно вставляем текст из файла `.github/workflows/main.yml`. 
 Там необходимо:
    - 1 - Указать свою ветку для проверки.
@@ -31,6 +31,6 @@ _**Ссылка на компоненты для использования пр
    - 3 - Здесь прописаны команды для установки библиотек flake8 и pytest а также команда для установки библиотек из файла requirements.
    - 4 - Здесь прописаны команды для запуска проверки всех файлов с помощью flake8. Через -- указаны на какие правила нужно проверить файлы.
    - 5 - Здесь прописана команда на запуск pytest. Рекомендуется либо назвать файл с тестами `run_test.py` либо прописать после pytest(5) путь до файла с тестами. Примеры тестов представлены в файле `tests.py`
-![img.png](readme images/img_action_file.png)
+![readme images/img_action_file.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img_action_file.png?raw=true)
 5) После редактирования текста жмем зеленую кнопку Commit changes в верхнем левом углу и теперь все будет прогонятся каждый раз при пуше в указанную ветку а результат action будет представлен на вкладке **Actions**
-![img.png](readme images/img_actions.png)
+![readme images/img_actions.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img_actions.png?raw=true)
