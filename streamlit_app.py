@@ -3,7 +3,7 @@ import numpy as np
 
 
 def calc_log(x):
-    return np.log(x);
+    return np.log(x)
 
 
 # ЗДЕСЬ НАЧИНАЕТСЯ ОПИСАНИЕ ИНТЕРФЕЙСА
