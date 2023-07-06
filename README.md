@@ -34,3 +34,18 @@ _**Ссылка на компоненты для использования пр
 ![readme images/img_action_file.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img_action_file.png?raw=true)
 5) После редактирования текста жмем зеленую кнопку Commit changes в верхнем левом углу и теперь все будет прогонятся каждый раз при пуше в указанную ветку а результат action будет представлен на вкладке **Actions**
 ![readme images/img_actions.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img_actions.png?raw=true)
+
+##Создание и разворачивание API
+1) Установим flask при помощи команды `pip install flask`.
+2) Составим пример API в файле `api.py`. 
+Апи обязательно должно быть описано в функции create_app для дальнейшего удобного тестирования. 
+Для запуска апи достатоно вызвать команду в терминале `python api.py`.
+3) для проверки пост запроса можно использовать постман. 
+Для осуществления запросов он может предложить **_установить Postman Agent - это необходимо сделать для корректной работы_**.
+Пример вызова по роуту 'get-user'(чтобы открыть такое же меню, нужно перейти на вкладку Body, нажать raw (1) и выбрать JSON(2)):
+![img.png](readme images/img_make_api_request.png)
+
+##Тестирование API
+1) В начале необходимо установить библиотеку pytest при помощи команды `pip install pytest`
+2) После необходимо создать файл с тестами по примеру файла `api_tests.py`
+3) Запуск тестов можно осуществить в терминале командой `pytest api_tests.py`
