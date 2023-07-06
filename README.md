@@ -19,7 +19,7 @@ _**Ссылка на компоненты для использования пр
 
 ## Создание Workflow на проверку flake8 и pytest
 1) Заходим в репозиторий на github и открываем вкладку **Actions**
-![img.png](readme images/img.png)
+![readme images/img.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img.png?raw=true)
 2) Чуть ниже в левой части нажимаем **New workflow**
 ![img.png](readme images/img_new_workflow.png)
 3) Нажимаем на ссылку **Set up a workflow yourself**
