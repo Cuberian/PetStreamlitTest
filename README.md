@@ -43,7 +43,7 @@ _**Ссылка на компоненты для использования пр
 3) для проверки пост запроса можно использовать постман. 
 Для осуществления запросов он может предложить **_установить Postman Agent - это необходимо сделать для корректной работы_**.
 Пример вызова по роуту 'get-user'(чтобы открыть такое же меню, нужно перейти на вкладку Body, нажать raw (1) и выбрать JSON(2)):
-![img.png](readme images/img_make_api_request.png)
+![readme images/img_actions.png](https://github.com/Cuberian/PetStreamlitTest/blob/main/readme%20images/img_make_api_request.png?raw=true)
 
 ##Тестирование API
 1) В начале необходимо установить библиотеку pytest при помощи команды `pip install pytest`
